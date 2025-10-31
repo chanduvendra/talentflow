@@ -1,4 +1,5 @@
 # TalentFlow
+
 TalentFlow is a modern, feature-rich hiring platform designed for streamlined recruitment management. Built with React.js, Vite, and Tailwind CSS, it offers a responsive UI, light/dark mode, and robust analytics—all powered by mock APIs for rapid prototyping and testing.
 
 ## Table of Contents
@@ -85,38 +86,45 @@ TalentFlow is a modern, feature-rich hiring platform designed for streamlined re
 ### Installation
 
 1. **Clone the Repository**
-  ```bash
-  git clone <repository-url>
-  cd ENTNT
-  ```
+
+```bash
+git clone <repository-url>
+cd ENTNT
+```
 
 2. **Install Dependencies**
-  ```bash
-  npm install
-  ```
+
+```bash
+npm install
+```
 
 3. **Set Up Environment**
-  - Create a `.env` file in the root:
-    ```
-    VITE_API_URL=http://localhost:5173
-    ```
+
+- Create a `.env` file in the root:
+  ```
+  VITE_API_URL=http://localhost:5173
+  ```
 
 4. **Initialize MSW**
-  ```bash
-  npx msw init public/ --save
-  ```
+
+```bash
+npx msw init public/ --save
+```
 
 5. **Run the Development Server**
-  ```bash
-  npm run dev
-  ```
-  Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 6. **Build for Production**
-  ```bash
-  npm run build
-  npm run preview
-  ```
+
+```bash
+npm run build
+npm run preview
+```
 
 ### Scripts
 
@@ -163,11 +171,13 @@ TalentFlow is a modern, feature-rich hiring platform designed for streamlined re
 
 - **Tailwind CSS Resolution**:  
   If you see `Can't resolve 'tailwindcss'`, clear cache:
+
   ```bash
-  - **Kanban Board Drag-and-Drop Integration**:  
+  - **Kanban Board Drag-and-Drop Integration**:
     Integrating drag-and-drop functionality for the Kanban board is in progress. While the UI supports moving cards between columns, updating the underlying data state is not yet fully implemented. Ensure that state changes are properly handled and persisted when cards are moved. Further enhancements are planned to synchronize UI interactions with the mock data layer.
   npm install
   ```
+
   Ensure `vite.config.ts` includes `@tailwindcss/vite`.
 
 - **Mock Data Limitations**:  
@@ -185,19 +195,21 @@ TalentFlow is a modern, feature-rich hiring platform designed for streamlined re
 
 1. Fork the repository.
 2. Create a feature branch:
-  ```bash
-  git checkout -b feature/xyz
-  ```
+
+```bash
+git checkout -b feature/xyz
+```
+
 3. Commit your changes:
-  ```bash
-  git commit -m "Add feature xyz"
-  ```
+
+```bash
+git commit -m "Add feature xyz"
+```
+
 4. Push to your branch:
-  ```bash
-  git push origin feature/xyz
-  ```
+
+```bash
+git push origin feature/xyz
+```
+
 5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.# ENTNT
